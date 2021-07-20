@@ -13,7 +13,7 @@
           "text": "Custom Node.js",
           "answers": {
             "plugin": "Custom:code",
-            "custom-code": "console.log(\"hi\");\r\noutput[\"msg\"] = \"Hi there\";"
+            "custom-code": "console.log(\"hi\");\r\noutput[\"msg\"] = \"Hi there from github\";"
           }
         }
       ]
