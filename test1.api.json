@@ -5,7 +5,7 @@
       "enableCors": true,
       "summary": "fdsa",
       "method": "get",
-      "path": "/test",
+      "path": "/test1",
       "inputs": [],
       "subcategory": "",
       "steps": [
@@ -13,7 +13,7 @@
           "text": "Custom Node.js",
           "answers": {
             "plugin": "Custom:code",
-            "custom-code": "console.log(\"hi\");\r\noutput[\"msg\"] = \"Hi there from github 4444\";"
+            "custom-code": "console.log(\"hi\");\r\noutput[\"msg\"] = \"Hi there from github 1\";"
           }
         }
       ]
