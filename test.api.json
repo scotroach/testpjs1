@@ -12,7 +12,7 @@
           "text": "Custom Node.js",
           "answers": {
             "plugin": "Custom:code",
-            "custom-code": "output.status = { success: true };"
+            "custom-code": "output.status = { success: false };"
           }
         }
       ],
