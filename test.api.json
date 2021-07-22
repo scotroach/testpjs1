@@ -1,0 +1,22 @@
+{
+  "routes": [
+    {
+      "name": "Unnamed API - 1",
+      "enableCors": true,
+      "summary": "test",
+      "method": "get",
+      "path": "/test",
+      "inputs": [],
+      "steps": [
+        {
+          "text": "Custom Node.js",
+          "answers": {
+            "plugin": "Custom:code",
+            "custom-code": "output.status = { success: true };"
+          }
+        }
+      ],
+      "subcategory": ""
+    }
+  ]
+}
