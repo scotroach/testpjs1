@@ -25,7 +25,16 @@
       "method": "get",
       "path": "/test2",
       "inputs": [],
-      "subcategory": ""
+      "subcategory": "",
+      "steps": [
+        {
+          "text": "Custom Node.js",
+          "answers": {
+            "plugin": "Custom:code",
+            "custom-code": "output.status = { success: true };"
+          }
+        }
+      ]
     }
   ]
 }
