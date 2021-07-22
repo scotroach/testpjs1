@@ -17,6 +17,15 @@
         }
       ],
       "subcategory": ""
+    },
+    {
+      "name": "Unnamed API - 2",
+      "enableCors": true,
+      "summary": "test",
+      "method": "get",
+      "path": "/test2",
+      "inputs": [],
+      "subcategory": ""
     }
   ]
 }
