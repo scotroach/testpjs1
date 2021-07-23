@@ -9,8 +9,8 @@ function claim03r() {
 
   pjs.define("rrn", { type: 'integer', length: 10, decimals: 0 });
   pjs.define("blahvar", { type: 'char', length: 10 });
-  pjs.define("program", { type: 'char', length: 10 });
-  pjs.define("action", { type: 'char', length: 20, varying: true });
+  pjs.define("program", { type: 'char', length: 20 });
+  pjs.define("action", { type: 'char', length: 10, varying: true });
   pjs.define("done", { type: 'boolean' });
 
   // * Keep running until F3=Exit is used
