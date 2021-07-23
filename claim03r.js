@@ -7,8 +7,8 @@ function claim03r() {
   pjs.defineTable("claimsp", {  read: true,  update: true,  write: true,  delete: true,  keyed: true,  levelIds: [ '475A4AB4923B0' ]});
   pjs.defineTable("claims2l", {  rename: { CLAIMS: 'CLAIMS2' },  read: true,  keyed: true,  levelIds: [ '475A4AB4923B0' ]});
 
-  pjs.define("rrn", { type: 'integer', length: 10, decimals: 0 });
-  pjs.define("blahvar", { type: 'char', length: 10 });
+  pjs.define("rrn", { type: 'decimal', length: 10, decimals: 0 });
+  pjs.define("blahvar", { type: 'char', length: 20 });
   pjs.define("program", { type: 'char', length: 20 });
   pjs.define("action", { type: 'char', length: 10, varying: true });
   pjs.define("done", { type: 'boolean' });
