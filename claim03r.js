@@ -7,8 +7,10 @@ function claim03r() {
   pjs.defineTable("claimsp", {  read: true,  update: true,  write: true,  delete: true,  keyed: true,  levelIds: [ '475A4AB4923B0' ]});
   pjs.defineTable("claims2l", {  rename: { CLAIMS: 'CLAIMS2' },  read: true,  keyed: true,  levelIds: [ '475A4AB4923B0' ]});
 
-  pjs.define("rrn", { type: 'integer', length: 10, decimals: 0 });
-  pjs.define("blahvar", { type: 'char', length: 10 });
+  // Made manual changes to the next 2 lines (post original convert)
+  pjs.define("rrn", { type: 'zoned decimal', length: 10, decimals: 0 });
+  pjs.define("blahvar", { type: 'char', length: 20 });
+
   pjs.define("program", { type: 'char', length: 10 });
   pjs.define("action", { type: 'char', length: 20, varying: true });
   pjs.define("done", { type: 'boolean' });
