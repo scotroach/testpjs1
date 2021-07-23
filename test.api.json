@@ -7,7 +7,18 @@
       "method": "get",
       "path": "/test",
       "inputs": [],
+      "subcategory": "",
+      "description": "",
+      "outputdescription": "The Real thing",
+      "tag": "The Real thing",
       "steps": [
+        {
+          "text": "Custom Node.js",
+          "answers": {
+            "plugin": "Custom:code",
+            "custom-code": "output.status = { success: true };"
+          }
+        },
         {
           "text": "Custom Node.js",
           "answers": {
@@ -15,11 +26,7 @@
             "custom-code": "output.status = { success: false };"
           }
         }
-      ],
-      "subcategory": "",
-      "description": "",
-      "outputdescription": "",
-      "tag": ""
+      ]
     },
     {
       "name": "Unnamed API - 2",
