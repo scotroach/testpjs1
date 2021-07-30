@@ -4,6 +4,8 @@ exports.activationGroup = "QILE";
 function claim03r() {
   pjs.defineDisplay("display", "claim03d.json", { rrnFields: { claimsfl: 'rrn' } });
 
+  
+
   pjs.defineTable("claimsp", {  read: true,  update: true,  write: true,  delete: true,  keyed: true,  levelIds: [ '475A4AB4923B0' ]});
   pjs.defineTable("claims2l", {  rename: { CLAIMS: 'CLAIMS2' },  read: true,  keyed: true,  levelIds: [ '475A4AB4923B0' ]});
 
