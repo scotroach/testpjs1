@@ -1,7 +1,7 @@
 {
   "routes": [
     {
-      "name": "Unnamed API - 1",
+      "name": "Unnamed API - 1aaa",
       "enableCors": true,
       "summary": "test",
       "method": "get",
